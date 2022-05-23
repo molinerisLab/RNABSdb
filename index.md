@@ -19,7 +19,7 @@ Have you found public experimental data regarding the binding of RNA on the geno
 
 ### Full Form
 
-If you want to help us better organize the data please go to the [full Google form](https://docs.google.com/forms/d/1fpD5Ely-DXiT64KUC0U65snlmZCYcIPkw5-fKxUQfow), no email or registration required, all fields are optionals. Thanks!
+If you want to help us better organize the data please go to the [full Google form](https://docs.google.com/forms/d/e/1FAIpQLSdKV6HKGrhoiFCRUoUkID0PG_gKEpH_VOkvyUsBLRBpXj2u_g/viewform?usp=sf_link), no email or registration required, all fields are optionals. Thanks!
 
 
 ------------
