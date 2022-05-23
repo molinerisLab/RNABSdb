@@ -15,7 +15,7 @@ Have you found public experimental data regarding the binding of RNA on the geno
 
 ### Quick Form 
 
-{% include contact-form.html %}
+{% include new_public_data_form.html %}
 
 ### Full Form
 
