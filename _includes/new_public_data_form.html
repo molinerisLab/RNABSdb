@@ -1,12 +1,12 @@
 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mvollobv" method="post">
   <fieldset id="fs-frm-inputs">
-    <label for="message" required="">Data indentification</label>
+    <label for="message" required="">Data indentification</label><div id="required_note">* Required</div>
     <input type="text" name="_data_identifies" id="data_identifier" placeholder="DOI of the paper, PubMed ID (PMID), GEO identifier (GSE) or other data suitable to identify the data" required="1">
-    <label for="full-name">Full Name (optional)</label>
-    <input type="text" name="name" id="full-name" placeholder="First and Last">
+    <!--label for="full-name">Full Name (optional)</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last"-->
     <label for="email-address">Email Address (optional)</label>
     <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld">
-    <label for="message">Message</label>
+    <label for="message">Message (optional)</label>
     <textarea rows="5" name="message" id="message" placeholder="Have you some note?"></textarea>
     <input type="hidden" name="_subject" id="email-subject" value="RNABSdb new public data form">
     <div id="required_note">* Required</div>
