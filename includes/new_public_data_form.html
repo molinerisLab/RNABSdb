@@ -1,16 +1,21 @@
 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mvollobv" method="post">
   <fieldset id="fs-frm-inputs">
-    <label for="full-name">Full Name (optional)</label>
-    <input type="text" name="name" id="full-name" placeholder="First and Last" required="0">
-    <label for="email-address">Email Address (optional)</label>
-    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="0">
+    <label for="message">Data indentification</label>
     <input type="text" name="_data_identifies" id="data_identifier" placeholder="DOI of the paper, PubMed ID (PMID), GEO identifier (GSE) or other data suitable to identify the data" required="1">
+    <label for="full-name">Full Name (optional)</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last">
+    <label for="email-address">Email Address (optional)</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld">
     <label for="message">Message</label>
-    <textarea rows="5" name="message" id="message" placeholder="Have you some note?" required="0"></textarea>
+    <textarea rows="5" name="message" id="message" placeholder="Have you some note?"></textarea>
     <input type="hidden" name="_subject" id="email-subject" value="RNABSdb new public data form">
+    <div id="required_note">* Required</div>
   </fieldset>
   <input type="submit" value="Submit">
-</form><style>/* reset */
+</form>
+
+
+<style>/* reset */
 #fs-frm input,
 #fs-frm select,
 #fs-frm textarea,
@@ -117,4 +122,15 @@
 #fs-frm fieldset.locale select[name="state"] {
   margin-right: 3%;
 }
+  
+  
+.required:after {
+  content:" *";
+  color: red;
+}
+
+#required_note  {
+  color: red;
+}
+
 </style>
