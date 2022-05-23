@@ -10,7 +10,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 -->
 ## Experiment Table
-View the list of collected experiments [experiment_table.html]
+View the list of [collected experiments](experiment_table)
 
 ### Add an experiment
 Have you found public experimental data regarding the binding of RNA on the genome? Is it not yet in *RNABSdb*? Please let us know and we will update the database!
