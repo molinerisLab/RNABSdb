@@ -15,11 +15,7 @@ View the list of [collected experiments](experiment_table)
 ### Add an experiment
 Have you found public experimental data regarding the binding of RNA on the genome? Is it not yet in *RNABSdb*? Please let us know and we will update the database!
 
-### Quick Form 
-
 {% include new_public_data_form.html %}
-
-### Full Form
 
 If you want to help us better organize the data please go to the [full Google form](https://docs.google.com/forms/d/e/1FAIpQLSdKV6HKGrhoiFCRUoUkID0PG_gKEpH_VOkvyUsBLRBpXj2u_g/viewform?usp=sf_link), no email or registration required, all fields are optionals. Thanks!
 
