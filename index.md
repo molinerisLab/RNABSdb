@@ -23,4 +23,4 @@ If you want to help us better organize the data please go to the [full Google fo
 
 
 ------------
-Edit this page using the [editor on GitHub](https://github.com/molinerisLab/RNABSdb/edit/gh-pages/index.md).
+[Edit this page](https://github.com/molinerisLab/RNABSdb/edit/gh-pages/index.md).
