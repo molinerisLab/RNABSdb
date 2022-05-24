@@ -5,13 +5,13 @@ title: "Experiments table"
 permalink: /experiments_table/
 page_css:
   - https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css
-page_js:
-  - https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js
+#page_js:
+#  - https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js
 ---
 
 <table class="display" id="my-table">
   {% for row in site.data.experiment_table %}
-    <tr>
+  <tr>
     {% if forloop.first %}
       {% for pair in row %}
         <th>{{ pair[0] }}</th>
@@ -21,6 +21,6 @@ page_js:
     {% for pair in row %}
        <td>{{ pair[1] }}</td>
     {% endfor %}
-    </tr>
+  </tr>
   {% endfor %}
 </table>
