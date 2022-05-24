@@ -1,0 +1,35 @@
+---
+layout: default
+title: "Experiment table"
+permalink: /experiment_table/
+#page_css:
+#	- https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css
+#page_js:
+#        - https://code.jquery.com/jquery-3.5.1.js
+#	- https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js
+#- https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js
+---
+
+
+<h1>Experiment table</h1>
+<table class="display" id="my-table">
+  {% for row in site.data.experiment_table %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
+</table>
+
+<script>
+$(document).ready(function () {
+$("#my-table > table").DataTable();
+});
+</script>
