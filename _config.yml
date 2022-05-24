@@ -18,7 +18,7 @@ search: true
 include: ["_pages"]
 
 
-#head_scripts:
+after_footer_scripts:
 #  - https://code.jquery.com/jquery-3.3.1.min.js
-#  - https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js
+   - https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js
 
