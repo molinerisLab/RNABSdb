@@ -1,0 +1,11 @@
+<!-- haead_custom -->
+{% if page.page_js %}
+  {% for js in page.page_js %}
+    <script type="text/javascript" language="javascript" src="{{ js }}"></script>
+  {% endfor %}
+{% endif %}
+{% if page.page_css %}
+  {% for stylesheet in page.page_css %}
+    <link rel="stylesheet" href="{{ stylesheet  }}">
+  {% endfor %}
+{% endif %}
