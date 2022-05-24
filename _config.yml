@@ -1,7 +1,7 @@
-#remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+#theme: minimal-mistakes-jekyll
 plugins:
-        #- jekyll-remote-theme # add this line to the plugins list if you already have one
+        - jekyll-remote-theme # add this line to the plugins list if you already have one
         - jekyll-include-cache
 
 minimal_mistakes_skin: "air" # "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
@@ -22,4 +22,4 @@ include: ["_pages"]
 after_footer_scripts:
 #  - https://code.jquery.com/jquery-3.3.1.min.js
    - https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js
-
+   - /asset/js/load_datatable.js
