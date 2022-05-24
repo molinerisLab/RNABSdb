@@ -11,17 +11,17 @@ page_js:
 
 <table class="display" id="my-table">
   {% for row in site.data.experiment_table %}
+  <tr>
     {% if forloop.first %}
-    <tr>
       {% for pair in row %}
         <th>{{ pair[0] }}</th>
       {% endfor %}
-    </tr>
     {% endif %}
 
     {% for pair in row %}
        <td>{{ pair[1] }}</td>
     {% endfor %}
+    </tr>
   {% endfor %}
 </table>
 
