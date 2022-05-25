@@ -1,5 +1,6 @@
 let table = new DataTable('#experiments_table', {
-    // options
+	dom: 'Bfrtip',
+	buttons: [ {extend: 'colvis', } ]
 });
 //$('#full-width-block').width(window_width)
 /*
