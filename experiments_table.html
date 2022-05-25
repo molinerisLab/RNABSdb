@@ -1,32 +1,41 @@
 ---
-layout: single
+layout: default
 classes: wide
 title: "Experiments table"
 permalink: /experiments_table/
 page_css:
   - https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css
+  - /assets/css/dataTables.css
 #page_js:
 #  - https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js
 ---
 
-<table class="display" id="my-table">
-  {% for row in site.data.experiment_table %}
-  <thead>
-  <tr>
-    {% if forloop.first %}
-      {% for pair in row %}
-        <th>{{ pair[0] }}</th>
-      {% endfor %}
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
+<center>
+<a href="https://docs.google.com/spreadsheets/d/1-srAK7JpCCSuYx6T8U-aYQW9xuqt3pJ2BPBMTIOZNNk/edit?usp=sharing">
+	<button type="button" class="btn btn--primary">Download the table in xlsx</button>
+</a>
+</center>
+
+<div id="full-width-block">
+<table class="display" id="experiments_table">
+  {% for row in site.data.experiments_table_full %}
+  	{% if forloop.first %}
+	<thead>
+		<tr>
+		{% for pair in row %}
+			<th>{{ pair[0] }}</th>
+		{% endfor %}
+		 </tr>
+	</thead>
+	<tbody>
+		<tr>
     {% endif %}
 
     {% for pair in row %}
-       <td>{{ pair[1] }}</td>
+       			<td>{{ pair[1] }}</td>
     {% endfor %}
-  </tr>
+		</tr>
   {% endfor %}
-  </tbody>
+	</tbody>
 </table>
+</div>
