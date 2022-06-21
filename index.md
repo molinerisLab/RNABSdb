@@ -17,7 +17,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 -->
 ## Work in progress
-This is unpublished work in progress, get in touch!
+Manuscritp in preparation, get in touch!
 
 {% include contact_form.html %}
 
