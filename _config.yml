@@ -10,6 +10,12 @@ subtitle: "RNA Binding Sites database"
 name: "MolinerisLab"
 repository: "molinerisLab/RNABSdb"
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-SRKQ908YDT"
+    anonymize_ip: false # default
+
 breadcrumbs: true  # disabled by default
 atom_feed:
   hide: true
