@@ -1,6 +1,6 @@
 main:
   - title: "About"
-    url: /about/
+    url: /about
   - title: "Experiments Table"
-    url: /experiments_table/
+    url: /experiments_table
   
