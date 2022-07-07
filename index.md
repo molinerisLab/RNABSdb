@@ -5,25 +5,49 @@
 layout: home
 ---
 
-<!-- For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). 
+This website aims to collect all publically available hi-throughput data about lncRNAs binding on genomes.
+Including mostly ChIRP-seq experiments but also CHART-seq, RAP-seq, ChOP-seq, ASO-Caputre-Seq, TRIP-seq, MARGI-seq, GRID-seq, RADICL-seq and ChAR-seq.
 
-### Jekyll Themes
+## Publication
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/molinerisLab/RNABSdb/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+We published a preprint describing RNABSdb
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
--->
-
-{% include contact_form.html %}
-
+__RNABSdb and 3plex enable deep computational investigation of triplex forming lncRNAs__
+<br>
+Chiara Cicconetti, Andrea Lauria, Valentina Proserpio, Annalaura Tamburrini, Mara Maldotti, Salvatore Oliviero, Ivan Molineris
+<br>
+_bioRxiv 2022.07.06.496678_; doi: [https://doi.org/10.1101/2022.07.06.496678](https://www.biorxiv.org/content/10.1101/2022.07.06.496678v1)
 
 ## Experiments Table
-View the list of [collected experiments](experiments_table)
+View the list of [collected experiments](experiments_table).
+
+## Submit your data
+
+#### Published data
+
+Tell us how to find the data using the [add an experiment form](#add_an_experiment)
+
+#### Unpublished or private data
+
+We process your data for free on a collaborative basis for academic-non profit use. Please [contact us](contact_form) if interested.
+
+## Re-processed data
+
+We re-analyze all data in standard ad uniform way using [ENCODE ChIP-seq pipeline](https://www.encodeproject.org/chip-seq/transcription_factor/).
+
+### View peaks and signal trask on genome browser
+
+[Human genome](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https://olilab.unito.it/RNABSdb/hub.txt&genome=hg38&position=lastDbPos)
+
+[Mouse genome](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https://olilab.unito.it/RNABSdb/hub.txt&genome=mm10&position=lastDbPos)
+
+### Download data in bed and bigwig format
+
+[collected experiments](download_data)
+
 
 ### Add an experiment
+<a name="add_an_experiment"></a>
 Have you found public experimental data regarding the binding of RNA on the genome? Is it not yet in *RNABSdb*? Please let us know and we will update the database!
 
 {% include new_public_data_form.html %}
