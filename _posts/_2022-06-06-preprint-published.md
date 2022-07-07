@@ -12,5 +12,5 @@ __RNABSdb and 3plex enable deep computational investigation of triplex forming l
 <br>
 Chiara Cicconetti, Andrea Lauria, Valentina Proserpio, Annalaura Tamburrini, Mara Maldotti, Salvatore Oliviero, Ivan Molineris
 <br>
-_bioRxiv 2022.07.06.496678_; doi: [https://doi.org/10.1101/2022.07.06.49667](https://doi.org/10.1101/2022.07.06.49667)
+_bioRxiv 2022.07.06.496678_; doi: [https://doi.org/10.1101/2022.07.06.496678](https://www.biorxiv.org/content/10.1101/2022.07.06.496678v1)
 
