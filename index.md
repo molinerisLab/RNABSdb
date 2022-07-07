@@ -8,15 +8,17 @@ layout: home
 This website aims to collect all publically available hi-throughput data about lncRNAs binding on genomes.
 Including mostly ChIRP-seq experiments but also CHART-seq, RAP-seq, ChOP-seq, ASO-Caputre-Seq, TRIP-seq, MARGI-seq, GRID-seq, RADICL-seq and ChAR-seq.
 
-## Publication
+## How to cite
 
-We published a preprint describing RNABSdb
+If you use some dada provided by `RNABSdb` please cite 
 
 __RNABSdb and 3plex enable deep computational investigation of triplex forming lncRNAs__
 <br>
 Chiara Cicconetti, Andrea Lauria, Valentina Proserpio, Annalaura Tamburrini, Mara Maldotti, Salvatore Oliviero, Ivan Molineris
 <br>
 _bioRxiv 2022.07.06.496678_; doi: [https://doi.org/10.1101/2022.07.06.496678](https://www.biorxiv.org/content/10.1101/2022.07.06.496678v1)
+
+Moreover you can find in the [experiment table](experiments_table) the reference to each original article describing the data we collected. Please cite the ones relevant to your works alongisde `RNABSdb` paper.
 
 ## Experiments Table
 View the list of [collected experiments](experiments_table).
