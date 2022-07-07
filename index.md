@@ -29,7 +29,7 @@ Tell us how to find the data using the [add an experiment form](#add_an_experime
 
 #### Unpublished or private data
 
-We process your data for free on a collaborative basis for academic-non profit use. Please [contact us](contact_form) if interested.
+We process your data for free on a collaborative basis for academic-non profit use. Please [contact us](analyze) if interested.
 
 ## Re-processed data
 
