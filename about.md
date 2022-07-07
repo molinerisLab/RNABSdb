@@ -1,3 +1,10 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---
+
 This website aims to collect all publically available hi-throughput data about lncRNAs binding on genomes.
 Including mostly ChIRP-seq experiments but also CHART-seq, RAP-seq, ChOP-seq, ASO-Caputre-Seq, TRIP-seq, MARGI-seq, GRID-seq, RADICL-seq and ChAR-seq.
 
