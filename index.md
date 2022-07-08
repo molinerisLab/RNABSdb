@@ -5,12 +5,12 @@
 layout: home
 ---
 
-This website aims to collect all publically available hi-throughput data about lncRNAs binding on genomes.
-Including mostly ChIRP-seq experiments but also CHART-seq, RAP-seq, ChOP-seq, ASO-Caputre-Seq, TRIP-seq, MARGI-seq, GRID-seq, RADICL-seq and ChAR-seq.
+RNABSdb is a collection of all the publicly available high-throughput RNA-DNA interaction data.
+Considered experimental procedures are ChIRP-seq, CHART-seq, RAP-seq, ChOP-seq, ASO-Caputre-Seq, MARGI-seq, GRID-seq, RADICL-seq and ChAR-seq.
 
 ## How to cite
 
-If you use some dada provided by `RNABSdb` please cite 
+If you use data provided by `RNABSdb` please cite 
 
 __RNABSdb and 3plex enable deep computational investigation of triplex forming lncRNAs__
 <br>
@@ -18,7 +18,7 @@ Chiara Cicconetti, Andrea Lauria, Valentina Proserpio, Annalaura Tamburrini, Mar
 <br>
 _bioRxiv 2022.07.06.496678_; doi: [https://doi.org/10.1101/2022.07.06.496678](https://www.biorxiv.org/content/10.1101/2022.07.06.496678v1)
 
-Moreover you can find in the [experiment table](experiments_table) the reference to each original article describing the data we collected. Please cite the ones relevant to your works alongisde `RNABSdb` paper.
+You can find in the [experiment table](experiments_table) the reference to each original article describing the collected data. Please cite them alongside `RNABSdb` paper.
 
 ## Experiments Table
 View the list of [collected experiments](experiments_table).
@@ -27,17 +27,17 @@ View the list of [collected experiments](experiments_table).
 
 #### Published data
 
-Tell us how to find the data using the [add an experiment form](#add_an_experiment)
+Tell us how to find new data using the [add an experiment form](#add_an_experiment)
 
 #### Unpublished or private data
 
-We process your data for free on a collaborative basis for academic-non profit use. Please [contact us](analyze) if interested.
+We process your data for free on a collaborative basis for academic-nonprofit use. Please [contact us](analyze) if interested.
 
 ## Re-processed data
 
-We re-analyze all data in standard ad uniform way using [ENCODE ChIP-seq pipeline](https://www.encodeproject.org/chip-seq/transcription_factor/).
+We reanalyze the data in a standard ad uniform way employing [ENCODE ChIP-seq pipeline](https://www.encodeproject.org/chip-seq/transcription_factor/).
 
-### View peaks and signal trask on genome browser
+### View peaks and signal tracks on genome browser
 
 [Human genome](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https://olilab.unito.it/RNABSdb/hub.txt&genome=hg38&position=lastDbPos)
 
@@ -50,7 +50,7 @@ We re-analyze all data in standard ad uniform way using [ENCODE ChIP-seq pipelin
 
 ### Add an experiment
 <a name="add_an_experiment"></a>
-Have you found public experimental data regarding the binding of RNA on the genome? Is it not yet in *RNABSdb*? Please let us know and we will update the database!
+Have you found published RNA genomic binding sites not yet included in *RNABSdb*? Let us know, we will update the database!
 
 {% include new_public_data_form.html %}
 
