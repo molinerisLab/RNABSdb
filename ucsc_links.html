@@ -11,9 +11,9 @@ permalink: /ucsc_links/
 ##  - https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js
 ---
 
-[all human tracks](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https://olilab.unito.it/RNABSdb/hub.txt&genome=hg38&position=lastDbPos)
-
-[all mouse tracks](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https://olilab.unito.it/RNABSdb/hub.txt&genome=mm10&position=lastDbPos)
+<a href="https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https://olilab.unito.it/RNABSdb/hub.txt&genome=hg38&position=lastDbPos" target="_blank">all human tracks</a>
+<br>
+<a href=https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https://olilab.unito.it/RNABSdb/hub.txt&genome=mm10&position=lastDbPos" target="_blank">all mouse tracks</a>
 
 <table class="display" id="ucsc_link">
 	<thead>
@@ -23,13 +23,12 @@ permalink: /ucsc_links/
 		 </tr>
 	</thead>
 	<tbody>
-  {% for row in site.data.trackDb_ALL_txt_single_urls %}
+  		{% for row in site.data.trackDb_ALL_txt_single_urls %}
 		<tr>
-        <td>{{row.species}}</td>
-        <td>{{row.lncRNA}}</td>
-	<td>{{row.url}}</td>
+        		<td>{{row.species}}</td>
+        		<td><a href="{{row.url}}" target="_blank">{{row.lncRNA}}</a></td>
 		</tr>
-  {% endfor %}
+  		{% endfor %}
 	</tbody>
 </table>
 </div>
