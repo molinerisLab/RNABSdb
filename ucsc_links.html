@@ -11,16 +11,15 @@ page_css:
 #  - https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js
 ---
 
-<div id="full-width-block">
-<table class="display" id="experiments_table">
+<table class="display" id="ucsc_link">
 	<thead>
 		<tr>
-      <th>Species</th>
-      <th>lncRNA</th>
+      			<th>Species</th>
+      			<th>lncRNA</th>
 		 </tr>
 	</thead>
 	<tbody>
-  {% for row in site.data.trackDb.ALL.txt.single_urls %}
+  {% for row in site.data.trackDb_ALL_txt_single_urls %}
 		<tr>
         <td>row[0]</td>
         <td>row[1]</td>
