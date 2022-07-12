@@ -1,0 +1,31 @@
+---
+layout: default
+classes: wide
+title: "Experiments table"
+permalink: /ucsc_links/
+page_css:
+  - https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css
+  - /RNABSdb/assets/css/dataTables.css
+  - https://cdn.datatables.net/buttons/2.2.3/css/buttons.dataTables.min.css
+#page_js:
+#  - https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js
+---
+
+<div id="full-width-block">
+<table class="display" id="experiments_table">
+	<thead>
+		<tr>
+      <th>Species</th>
+      <th>lncRNA</th>
+		 </tr>
+	</thead>
+	<tbody>
+  {% for row in site.data.trackDb.ALL.txt.single_urls %}
+		<tr>
+        <td>row[0]</td>
+        <td>row[1]</td>
+		</tr>
+  {% endfor %}
+	</tbody>
+</table>
+</div>
