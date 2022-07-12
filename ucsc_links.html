@@ -25,8 +25,9 @@ permalink: /ucsc_links/
 	<tbody>
   {% for row in site.data.trackDb_ALL_txt_single_urls %}
 		<tr>
-        <td>{{row[0]}}</td>
-        <td>{{row[1]}}</td>
+        <td>{{row.species}}</td>
+        <td>{{row.lncRNA}}</td>
+	<td>{{row.url}}</td>
 		</tr>
   {% endfor %}
 	</tbody>
