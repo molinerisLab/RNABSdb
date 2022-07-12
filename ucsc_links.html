@@ -1,15 +1,19 @@
 ---
 layout: default
 classes: wide
-title: "Experiments table"
+title: "Link to UCSC genome browser"
 permalink: /ucsc_links/
-page_css:
-  - https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css
-  - /RNABSdb/assets/css/dataTables.css
-  - https://cdn.datatables.net/buttons/2.2.3/css/buttons.dataTables.min.css
-#page_js:
-#  - https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js
+#page_css:
+#  - https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css
+#  - /RNABSdb/assets/css/dataTables.css
+#  - https://cdn.datatables.net/buttons/2.2.3/css/buttons.dataTables.min.css
+##page_js:
+##  - https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js
 ---
+
+[all human tracks](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https://olilab.unito.it/RNABSdb/hub.txt&genome=hg38&position=lastDbPos)
+
+[all mouse tracks](https://genome.ucsc.edu/cgi-bin/hgTracks?hubUrl=https://olilab.unito.it/RNABSdb/hub.txt&genome=mm10&position=lastDbPos)
 
 <table class="display" id="ucsc_link">
 	<thead>
@@ -21,8 +25,8 @@ page_css:
 	<tbody>
   {% for row in site.data.trackDb_ALL_txt_single_urls %}
 		<tr>
-        <td>row[0]</td>
-        <td>row[1]</td>
+        <td>{{row[0]}}</td>
+        <td>{{row[1]}}</td>
 		</tr>
   {% endfor %}
 	</tbody>
