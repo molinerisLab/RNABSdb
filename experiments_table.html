@@ -33,7 +33,7 @@ page_css:
     {% endif %}
 
     {% for pair in row %}
-    	{% if pair[0] == "Available_bed_link" and pair[1] and pair[1]!="no" and pair[1]!="NA" %}
+    	{% if pair[0] == "available_bed_link" and pair[1] and pair[1]!="no" and pair[1]!="NA" %}
 			<td><a href="{{ pair[1] }}">download</a></td>
 	{% else %}
        			<td>{{ pair[1] }}</td>
