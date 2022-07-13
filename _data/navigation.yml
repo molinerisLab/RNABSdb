@@ -5,4 +5,6 @@ main:
     url: /experiments_table
   - title: "Analyze your data"
     url: /analyze
+  - title: "Genome browser"
+    url: /ucsc_links/
   
