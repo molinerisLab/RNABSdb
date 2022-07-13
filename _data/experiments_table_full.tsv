@@ -1,53 +1,943 @@
-experiment_id	methods	species	GEO_ENA_Accession	BioProject_Accession	processed_ENCODE	processed_3plex	triplex_or_Hoogsteen_in_paper	article_DOI	author	year	available_bed_link	experiment_specificity	condition	gencode_gene_name	GenBank_ID	author_lncRNA_name	Ensembl_gene_ID	notes
-7SK	ChIRP-seq	Human	GSE69141	PRJNA284635	v1	v1	no	10.1038/nsmb.3176	Flynn	2016	https://static-content.springer.com/esm/art%3A10.1038%2Fnsmb.3176/MediaObjects/41594_2016_BFnsmb3176_MOESM31_ESM.xlsx	single_RNA	H1 cell line	RN7SK		7SK	ENSG00000202198	
-Rn7sk	ChIRP-seq	Mouse	GSE69141	PRJNA284635	v1	v1	no	10.1038/nsmb.3176	Flynn	2016	https://static-content.springer.com/esm/art%3A10.1038%2Fnsmb.3176/MediaObjects/41594_2016_BFnsmb3176_MOESM31_ESM.xlsx	single_RNA		Rn7sk		7sk	ENSMUSG00002076161	
-CDKN2B-AS1	ChIRP-seq	Human	GSE162221	PRJNA681143	v1	v1	experimental	10.1093/nar/gkab245	Alfeghaly	2021	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE162221&format=file&file=GSE162221%5Fintersect%5FANRIL%5Fpeaks%5Frep1%5Frep2%5Fhighscore15%5Fblacklisted%5Fregions%2Ebed%2Egz	single_RNA		CDKN2B-AS1		ANRIL	ENSG00000240498	
-AC087482.1	ChIRP-seq	Human	GSE58989	PRJNA254057	v1	v1	computational	10.1093/hmg/ddv343	Merry	2015	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM1854427&format=file&file=GSM1854427%5FDACOR1%5FChIRP%5Fanalysis%2Etxt%2Egz	single_RNA		AC087482.1		DACOR1	ENSG00000259347	triplex evidence in other papers (10.3390/ijms21030830)
-Z85996.1	ChIRP-seq	Human	GSE76418	PRJNA307254	v1	v1	no	10.1038/ng.3673	Schmitt	2016	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM2011201&format=file&file=GSM2011201%5FAS1%5F1%5FDINO%5FChIRP%5FEVEN%2EnarrowPeak%2Egz;https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM2011202&format=file&file=GSM2011202%5FAS1%5F2%5FDINO%5FChIRP%5FODD%2EnarrowPeak%2Egz	single_RNA		Z85996.1		DINO	ENSG00000285244	
-Bloodlinc	ChIRP-seq	Mouse	GSE97119	PRJNA380759	v1	v1	no	10.1016/j.celrep.2017.05.082 	Alvarez-Dominguez	2017	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE97nnn/GSE97119/suppl/GSE97119_EC7_consensus_aboveThresholds_peaks.bed.gz	single_RNA		Bloodlinc		EC7	ENSMUSG00000087330	
-Eprn	ChIRP-seq	Mouse	GSE147208	PRJNA613423	v1	v1	computational	10.1093/nar/gkaa628	Zapparoli	2020	NA	single_RNA		Eprn		Epr	ENSMUSG00000113346	
-CPEB2-DT	ChIRP-seq	Human	GSE156121	PRJNA656806	v1	v1	no	10.1172/jci.insight.143289	Reddy	2021	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE156121&format=file&file=GSE156121%5FTHP1%2DDRAIR%5Frep1%2D1e%2D5%5Fpeaks%2Etxt%2Egz;https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE156121&format=file&file=GSE156121%5FTHP1%2DDRAIR%5Frep2%2D1e%2D5%5Fpeaks%2Etxt%2Egz 	single_RNA		CPEB2-DT		DRAIR	ENSG00000247624	
-FA2H-2-MLKL	ChIRP-seq	Human	NA	NA			no	10.1038/s41418-018-0235-z	Guo	2019	NA	single_RNA				FA2H-2-MLKL		no data available
-MIR503HG	ChIRP-seq	Human	PRJEB34589	NA	v1	v1	no	10.1172/JCI135439	Pachera	2020	NA	single_RNA		MIR503HG		H19X	ENSG00000223749	
-Gm18840	ChIRP-seq	Mouse	NA	NA			no	10.3389/fcell.2021.615950	Luo	2021	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8312575/bin/Table_6.XLSX	single_RNA		Gm18840		Gm18840	ENSMUSG00000107568	
-Gm4665	ChIRP-seq	Mouse	GSE145189	PRJNA606277	v1	v1	no	10.1101/gr.264333.120	Li	2021	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE145189&format=file&file=GSE145189%5FMACS2%5FLncRNA%5FInput%2Etxt%2Egz	single_RNA		Gm4665		Gm4665	ENSMUSG00000098127	
-9530018H14Rik@GLIAL	ChIRP-seq	Mouse	GSE70986	PRJNA290073	v1	v1	no	10.1371/journal.pgen.1005680 	Carlson	2015	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE70986&format=file&file=GSE70986%5FLimb%2Dpeaks%2Ebed%2Egz;https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE70986&format=file&file=GSE70986%5Fglial%2Dpeaks%2Ebed%2Egz	single_RNA	Glial cell line	9530018H14Rik 		HOTCHON	ENSMUSG00000102373	
-9530018H14Rik@LIMB	ChIRP-seq	Mouse	GSE70986	PRJNA290073	v1	v1	no	10.1371/journal.pgen.1005680 	Carlson	2015	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE70986&format=file&file=GSE70986%5FLimb%2Dpeaks%2Ebed%2Egz;https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE70986&format=file&file=GSE70986%5Fglial%2Dpeaks%2Ebed%2Egz	single_RNA	Limb Mesenchyme	9530018H14Rik 		HOTCHON	ENSMUSG00000102373	
-HAND2-AS1	ChIRP-seq	Human	GSE126122	PRJNA521057	v1	v1	no	10.15252/embj.2018101110	wang	2019	NA	single_RNA		HAND2-AS1		HAND2-AS1	ENSG00000237125	
-Hmrhl	ChIRP-seq	Human	NA	NA			computational	10.1093/narcan/zcab042	Choudhury	2021	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8559160/bin/zcab042_supplemental_files.zip	single_RNA				Hmrhl		
-Lin28a	ChIRP-seq	Mouse	GSE90574	PRJNA355091	v1	v1	no	 10.7554/eLife.23468 	Li	2017	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE90574&format=file	single_RNA		Lin28a		Lin28a	ENSMUSG00000050966	
-HOTAIR	ChIRP-seq	Human	GSE31332	PRJNA146003	v1	v1	experimental	10.1016/j.molcel.2011.08.027 	CiChu	2011	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE31nnn/GSE31332/suppl/GSE31332%5Fhotair%5Foe%5Fpeaks%2Ebed%2Egz	single_RNA		HOTAIR		HOTAIR	ENSG00000228630	triplex evidence in other papers (10.1093/nar/gkw802)
-DT926623.1	ChIRP-seq	Mouse	GSE66819	PRJNA278066	v1	v1	no	10.1016/j.stem.2015.02.002 	Luo	2015	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE66nnn/GSE66819/suppl/GSE66819_final.consensus.narrowpeak.bed.gz	single_RNA			DT926623.1	lincHSC2		
-HOTTIP@GSE114981	ChIRP-seq	Human	GSE114981	PRJNA473439	v1	v1	no	10.1016/j.ccell.2019.10.011	Luo	2019	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM3161929&format=file&file=GSM3161929%5FWT%2DCHIRP%2Dseq%5Fpeaks%2Ebed%2Egz	single_RNA		HOTTIP		HOTTIP	ENSG00000243766	
-lncSmad7	ChIRP-seq	Mouse	GSE174636	PRJNA730846	v1	v1	experimental	doi.org/10.1093/nar/gkac083	Maldotti	2022	NA	single_RNA		lncSmad7		lncSmad7	ENSMUSG00000025880	
-HOTTIP@GSE182601	ChIRP-seq	Human	GSE182601	NA			no	10.1038/s41388-021-02127-3	Singh	2021		single_RNA		HOTTIP		HOTTIP	ENSG00000243766	raw data currently private and is scheduled to be released on Jul 01, 2024.
-Linc-ASEN	ChIRP-seq	Human	GSE128396	PRJNA527315			no	10.1038/s41418-019-0467-6	Lee	2020	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM3673641&format=file&file=GSM3673641%5F713%5F2%5Fp01%5Fpeaks%2Ebed%2Egz	single_RNA				Linc-ASEN		no input or negative control
-LINC01667	ChIRP-seq	Human	NA	NA			no	10.3389/fonc.2021.650173	Zhang	2021		single_RNA				LINC01667		the raw data supporting the conclusions of this article will be made available by the authors, without undue reservation, to any qualified researcher.
-1200007C13Rik@4T1	ChIRP-seq	Mouse	GSE142169	PRJNA596185	v1	v1	no	10.1038/s41467-020-20207	Chang	2020	https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-20207-y/MediaObjects/41467_2020_20207_MOESM5_ESM.xlsx;https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-20207-y/MediaObjects/41467_2020_20207_MOESM6_ESM.xlsx	single_RNA	4T1 cell line	1200007C13Rik		MaTAR25	ENSMUSG00000087684	the number of peaks provided by the authors is equal to the maximum number of rows in xls files
-LINC01605	ChIRP-seq	Human	GSE112602	PRJNA448439			no	10.1038/s41598-018-25530-5	Forrest 	2018	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM3073889&format=file&file=GSM3073889%5FlincDUSP%5FChIRP%2Dseq%5Fpeaks%2Exlsx	single_RNA		LINC01605		lncDUSP	ENSG00000253161	small number of reads in fastqs (3543)
-MALAT1	CHART-seq	Human	GSE58444	PRJNA252626	v1	v1	no	10.1016/j.molcel.2014.07.012	West	2014	https://ars.els-cdn.com/content/image/1-s2.0-S1097276514006054-mmc2.xlsx	single_RNA		MALAT1		MALAT1	ENSG00000251562	
-MEG3	ChOP-seq	Human	PRJEB7307	NA	v1	v1	experimental	10.1038/ncomms8743	Mondal	2015	https://static-content.springer.com/esm/art%3A10.1038%2Fncomms8743/MediaObjects/41467_2015_BFncomms8743_MOESM364_ESM.xls	single_RNA		MEG3		MEG3	ENST00000451743	
-NEAT1	CHART-seq	Human	GSE58444	PRJNA252626	v1	v1	experimental	10.1016/j.molcel.2014.07.012	West	2014	https://ars.els-cdn.com/content/image/1-s2.0-S1097276514006054-mmc2.xlsx	single_RNA		NEAT1		NEAT1	ENSG00000245532	triplex evidence in other papers (10.1093/nar/gky1305)
-1200007C13Rik@NDL	ChIRP-seq	Mouse	GSE142169	PRJNA596185	v1	v1	no	10.1038/s41467-020-20207	Chang	2020	https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-20207-y/MediaObjects/41467_2020_20207_MOESM5_ESM.xlsx;https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-20207-y/MediaObjects/41467_2020_20207_MOESM6_ESM.xlsx	single_RNA	NDL cell line	1200007C13Rik		MaTAR25	ENSMUSG00000087684	the number of peaks provided by the authors is equal to the maximum number of rows in xls files
-NFKBMARL-1	ChIRP-seq	Human	GSE167504	PRJNA704835			no	10.1038/s43587-021-00056-0	Cai	2021	https://static-content.springer.com/esm/art%3A10.1038%2Fs43587-021-00056-0/MediaObjects/43587_2021_56_MOESM6_ESM.xlsx	single_RNA				NFKBMARL-1		unclear positive control, negative control and input definition
-NRAD1	ChIRP-seq	Human	NA	NA			no	10.1038/s41418-019-0362-1	Vidovic	2020		single_RNA				NRAD1	ENSG00000233725	no data available
-Meg3	ChIRP-seq	Mouse	GSE99798	PRJNA389664	v1	v1	experimental	 10.1128/MCB.00278-17 	Iyer	2017	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE99798&format=file&file=GSE99798%5FM5%5Funique%5FNGSA%2Ebed%2Egz	single_RNA		Meg3		Meg3	ENSMUSG00000021268	
-AK156552.1	ChIRP-seq	Mouse	GSE73805	PRJNA297950	v1	v1	poor	10.1016/j.celrep.2017.11.045	Wang	2018	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE73805&format=file&file=GSE73805%5FPanct1%5FWT%5FOdd%5Fand%5FEven%2Ebed%2Egz	single_RNA			AK156552.1	Panct1		
-PCGEM1	ChIRP-seq	Human	GSE47804	PRJNA207830			no	10.1038/nature12451	Yang	2013	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE47804&format=file	single_RNA				PCGEM1	ENSG00000227418	no input or negative control
-Rmrp	ChIRP-seq	Mouse	GSE73912	PRJNA298543			no	10.1038/nature16193	Huang	2015	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE73912&format=file&file=GSE73912%5FRMRP%5FChIRPseq%5FDDX5ko%5FoverlapPeaks%2Ebed%2Egz;https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE73912&format=file&file=GSE73912%5FRMRP%5FChIRPseq%5FWT%5FoverlapPeaks%2Ebed%2Egz	single_RNA		Rmrp		RMRP	ENSMUSG00000115420	Retracted article
-AL109615.3	CHART-seq	Human	GSE136185	PRJNA561525	v1	v1	no	10.1158/0008-5472.CAN-20-2612.	Zagorac	2021	NA	single_RNA		AL109615.3		SCIRT	ENSG00000237686	
-AC018781.1	ChIRP-seq	Human	GSE104479	PRJNA412810	v1	v1	no	https://doi.org/10.1002/art.41200	Fan	2020	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE104479&format=file	single_RNA		AC018781.1		SLEAR	ENSG00000248599	
-SNHG11	ChIRP-seq	Human	NA	NA			no	10.1038/s41388-020-01512-8	Xu 	2020	https://static-content.springer.com/esm/art%3A10.1038%2Fs41388-020-01512-8/MediaObjects/41388_2020_1512_MOESM2_ESM.xls	single_RNA				SNHG11	ENSG00000174365	no data available
-SRA1	ChIRP-seq	Human	GSE58641	PRJNA253062	v1	v1	no	10.1371/journal.pgen.1005615	Wongtrakoongate	2015	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM1415922&format=file&file=GSM1415922%5FNTERA2%5FSRA%2Ebed%2Egz	single_RNA		SRA1		SRA	ENSG00000213523	
-Tug1	ChIRP-seq	Mouse	GSE77493	PRJNA310632	v1	v1	speculated	10.1172/JCI87927	Long	2016	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE77493&format=file	single_RNA		Tug1		Tug1	ENSMUSG00000056579	
-ROX2	ChIRP-seq	Drosophila	GSE31332	PRJNA146003			no	10.1016/j.molcel.2011.08.027 	Chu	2011	ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE31nnn/GSE31332/suppl/GSE31332%5Frox2%5Fpeaks%2Ebed%2Egz	single_RNA				ROX2		
-TERC	ChIRP-seq	Human	GSE112602	PRJNA146003	v1	v1	experimental	10.1016/j.molcel.2011.08.027 	CiChu	2011	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE31nnn/GSE31332/suppl/GSE31332%5Fterc%5Fpeaks%2Ebed%2Egz	single_RNA		TERC		TERC	ENSG00000277925	triplex evidence in other papers (10.1093/nar/gkz584)
-Xist	RAP-seq	Mouse	GSE137305	PRJNA565139			experimental	10.1126/science.1237973	Engreitz	2013		single_RNA		Xist		Xist	ENSMUSG00000086503	chrX only;  triplex evidence in other papers (10.1186/s13100-019-0173-4)
-GSE93281@Mouse	ChIRP-seq	Mouse	GSE93281	PRJNA360462			no	10.1093/nar/gkx055	Hu	2017		ERV-9 assoc. lncRNAs				NA		
-GSE93281@Human	ChIRP-seq	Human	GSE93281	PRJNA360462			no	10.1093/nar/gkx055	Hu	2017		ERV-9 assoc. lncRNAs				NA		
-GSE132192	RADICL-seq	Mouse	GSE132192	PRJNA546280			NA	10.1038/s41467-020-14337-6	Bonetti	2020		all_RNAs				NA		
-GSE82312@Drosophila	GRID-seq	Drosophila	GSE82312	PRJNA324602			NA	10.1038/nbt.3968	Li	2017		all_RNAs				NA		
-GSE82312@Human	GRID-seq	Human	GSE82312	PRJNA324602			NA	10.1038/nbt.3968	Li	2017		all_RNAs				NA		
-GSE82312@Mouse	GRID-seq	Mouse	GSE82312	PRJNA324602			NA	10.1038/nbt.3968	Li	2017		all_RNAs				NA		
-GSE92345	MARGI-seq	Human	GSE92345	PRJNA357269			NA	10.1016/j.cub.2017.01.011	Sridhar	2017		all_RNAs				NA		
-GSE97131	ChAR-seq	Drosophila	GSE97131	PRJNA380782			NA	10.7554/eLife.27024.001	Bell	2018		all_RNAs				NA		
+internal_name	experiment_id	method	species	GEO_ENA_Accession	BioProject_Accession	processed_ENCODE	processed_3plex	triplex_or_Hoogsteen_in_paper	article_DOI	author	year	available_bed_link	experiment_specificity	condition	gencode_gene_name	GenBank_ID	author_lncRNA_name	Ensembl_gene_ID	notes
+7SK	7SK-GSE69141	ChIRP-seq	Human	GSE69141	PRJNA284635	v1	v1	no	10.1038/nsmb.3176	Flynn	2016	https://static-content.springer.com/esm/art%3A10.1038%2Fnsmb.3176/MediaObjects/41594_2016_BFnsmb3176_MOESM31_ESM.xlsx	single_RNA	H1 cell line	RN7SK		7SK	ENSG00000202198	
+Rn7sk	Rn7sk-GSE69141	ChIRP-seq	Mouse	GSE69141	PRJNA284635	v1	v1	no	10.1038/nsmb.3176	Flynn	2016	https://static-content.springer.com/esm/art%3A10.1038%2Fnsmb.3176/MediaObjects/41594_2016_BFnsmb3176_MOESM31_ESM.xlsx	single_RNA	mES cell line	Rn7sk		7sk	ENSMUSG00002076161	
+CDKN2B-AS1	CDKN2B-AS1-GSE162221	ChIRP-seq	Human	GSE162221	PRJNA681143	v1	v1	experimental	10.1093/nar/gkab245	Alfeghaly	2021	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE162221&format=file&file=GSE162221%5Fintersect%5FANRIL%5Fpeaks%5Frep1%5Frep2%5Fhighscore15%5Fblacklisted%5Fregions%2Ebed%2Egz	single_RNA	HEK293 cell line	CDKN2B-AS1		ANRIL	ENSG00000240498	low quality in replicate 2
+AC087482.1	AC087482.1-GSE58989	ChIRP-seq	Human	GSE58989	PRJNA254057	v1	v1	computational	10.1093/hmg/ddv343	Merry	2015	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM1854427&format=file&file=GSM1854427%5FDACOR1%5FChIRP%5Fanalysis%2Etxt%2Egz	single_RNA	HCT116 cell line	AC087482.1		DACOR1	ENSG00000259347	triplex evidence in other papers (10.3390/ijms21030830)
+Z85996.1	Z85996.1-GSE76418	ChIRP-seq	Human	GSE76418	PRJNA307254	v1	v1	no	10.1038/ng.3673	Schmitt	2016	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM2011201&format=file&file=GSM2011201%5FAS1%5F1%5FDINO%5FChIRP%5FEVEN%2EnarrowPeak%2Egz;https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM2011202&format=file&file=GSM2011202%5FAS1%5F2%5FDINO%5FChIRP%5FODD%2EnarrowPeak%2Egz	single_RNA	U2OS cell line	Z85996.1		DINO	ENSG00000285244	
+Bloodlinc	Bloodlinc-GSE97119	ChIRP-seq	Mouse	GSE97119	PRJNA380759	v1	v1	no	10.1016/j.celrep.2017.05.082 	Alvarez-Dominguez	2017	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE97nnn/GSE97119/suppl/GSE97119_EC7_consensus_aboveThresholds_peaks.bed.gz	single_RNA	MEL cell line	Bloodlinc		EC7	ENSMUSG00000087330	
+Eprn	Eprn-GSE147208	ChIRP-seq	Mouse	GSE147208	PRJNA613423	v1	v1	computational	10.1093/nar/gkaa628	Zapparoli	2020	NA	single_RNA	NMuMG-EPR cell line	Eprn		Epr	ENSMUSG00000113346	
+CPEB2-DT	CPEB2-DT-GSE156121	ChIRP-seq	Human	GSE156121	PRJNA656806	v1	v1	no	10.1172/jci.insight.143289	Reddy	2021	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE156121&format=file&file=GSE156121%5FTHP1%2DDRAIR%5Frep1%2D1e%2D5%5Fpeaks%2Etxt%2Egz;https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE156121&format=file&file=GSE156121%5FTHP1%2DDRAIR%5Frep2%2D1e%2D5%5Fpeaks%2Etxt%2Egz 	single_RNA	THP1 cell line stably overexpressing DRAIR	CPEB2-DT		DRAIR	ENSG00000247624	
+FA2H-2-MLKL	FA2H-2-MLKL-NA	ChIRP-seq	Human	NA	NA			no	10.1038/s41418-018-0235-z	Guo	2019	NA	single_RNA	THP-1 cell line			FA2H-2-MLKL		no data available
+MIR503HG	MIR503HG-PRJEB34589	ChIRP-seq	Human	PRJEB34589	NA	v1	v1	no	10.1172/JCI135439	Pachera	2020	NA	single_RNA	BJ5TA	MIR503HG		H19X	ENSG00000223749	
+Gm18840	Gm18840-NA	ChIRP-seq	Mouse	NA	NA			no	10.3389/fcell.2021.615950	Luo	2021	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8312575/bin/Table_6.XLSX	single_RNA	Gm18840-transduced HL-1 cell line	Gm18840		Gm18840	ENSMUSG00000107568	
+Gm4665	Gm4665-GSE145189	ChIRP-seq	Mouse	GSE145189	PRJNA606277	v1	v1	no	10.1101/gr.264333.120	Li	2021	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE145189&format=file&file=GSE145189%5FMACS2%5FLncRNA%5FInput%2Etxt%2Egz	single_RNA	male germ cells	Gm4665		Gm4665	ENSMUSG00000098127	
+9530018H14Rik@GLIAL	9530018H14Rik@GLIAL-GSE70986	ChIRP-seq	Mouse	GSE70986	PRJNA290073	v1	v1	no	10.1371/journal.pgen.1005680 	Carlson	2015	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE70986&format=file&file=GSE70986%5FLimb%2Dpeaks%2Ebed%2Egz;https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE70986&format=file&file=GSE70986%5Fglial%2Dpeaks%2Ebed%2Egz	single_RNA	Glial cell line	9530018H14Rik 		HOTCHON	ENSMUSG00000102373	
+9530018H14Rik@LIMB	9530018H14Rik@LIMB-GSE70986	ChIRP-seq	Mouse	GSE70986	PRJNA290073	v1	v1	no	10.1371/journal.pgen.1005680 	Carlson	2015	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE70986&format=file&file=GSE70986%5FLimb%2Dpeaks%2Ebed%2Egz;https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE70986&format=file&file=GSE70986%5Fglial%2Dpeaks%2Ebed%2Egz	single_RNA	Limb Mesenchyme	9530018H14Rik 		HOTCHON	ENSMUSG00000102373	
+HAND2-AS1	HAND2-AS1-GSE126122	ChIRP-seq	Human	GSE126122	PRJNA521057	v1	v1	no	10.15252/embj.2018101110	wang	2019	NA	single_RNA	Hepatocellular carcinoma cells	HAND2-AS1		HAND2-AS1	ENSG00000237125	
+Hmrhl	Hmrhl-NA	ChIRP-seq	Human	NA	NA			computational	10.1093/narcan/zcab042	Choudhury	2021	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8559160/bin/zcab042_supplemental_files.zip	single_RNA	K562 cell line			Hmrhl		
+Lin28a	Lin28a-GSE90574	ChIRP-seq	Mouse	GSE90574	PRJNA355091	v1	v1	no	10.7554/eLife.23468 	Li	2017	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE90574&format=file	single_RNA	mES cell line	Lin28a		Lin28a	ENSMUSG00000050966	
+HOTAIR	HOTAIR-GSE31332	ChIRP-seq	Human	GSE31332	PRJNA146003	v1	v1	experimental	10.1016/j.molcel.2011.08.027 	Chu	2011	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE31nnn/GSE31332/suppl/GSE31332%5Fhotair%5Foe%5Fpeaks%2Ebed%2Egz	single_RNA	MDA-MB-231 cell line	HOTAIR		HOTAIR	ENSG00000228630	triplex evidence in other papers (10.1093/nar/gkw802)
+DT926623.1	DT926623.1-GSE66819	ChIRP-seq	Mouse	GSE66819	PRJNA278066	v1	v1	no	10.1016/j.stem.2015.02.002 	Luo	2015	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE66nnn/GSE66819/suppl/GSE66819_final.consensus.narrowpeak.bed.gz	single_RNA	HPC5 cell line		DT926623.1	lincHSC2		
+HOTTIP	HOTTIP-GSE114981	ChIRP-seq	Human	GSE114981	PRJNA473439	v1	v1	no	10.1016/j.ccell.2019.10.011	Luo	2019	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM3161929&format=file&file=GSM3161929%5FWT%2DCHIRP%2Dseq%5Fpeaks%2Ebed%2Egz	single_RNA	MOLM13 cell line	HOTTIP		HOTTIP	ENSG00000243766	
+lncSmad7	lncSmad7-GSE174636	ChIRP-seq	Mouse	GSE174636	PRJNA730846	v1	v1	experimental	doi.org/10.1093/nar/gkac083	Maldotti	2022	NA	single_RNA	mES cell line	lncSmad7		lncSmad7	ENSMUSG00000025880	
+Linc-ASEN	Linc-ASEN-GSE128396	ChIRP-seq	Human	GSE128396	PRJNA527315			no	10.1038/s41418-019-0467-6	Lee	2020	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM3673641&format=file&file=GSM3673641%5F713%5F2%5Fp01%5Fpeaks%2Ebed%2Egz	single_RNA	MCF7 cell line			Linc-ASEN		no input or negative control
+LINC01667	LINC01667-NA	ChIRP-seq	Human	NA	NA			no	10.3389/fonc.2021.650173	Zhang	2021	NA	single_RNA	HepG2 cell line			LINC01667		the raw data supporting the conclusions of this article will be made available by the authors, without undue reservation, to any qualified researcher.
+1200007C13Rik@4T1	1200007C13Rik@4T1-GSE142169	ChIRP-seq	Mouse	GSE142169	PRJNA596185	v1	v1	no	10.1038/s41467-020-20207	Chang	2020	https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-20207-y/MediaObjects/41467_2020_20207_MOESM5_ESM.xlsx;https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-20207-y/MediaObjects/41467_2020_20207_MOESM6_ESM.xlsx	single_RNA	4T1 cell line	1200007C13Rik		MaTAR25	ENSMUSG00000087684	the number of peaks provided by the authors is equal to the maximum number of rows in xls files
+LINC01605	LINC01605-GSE112602	ChIRP-seq	Human	GSE112602	PRJNA448439			no	10.1038/s41598-018-25530-5	Forrest 	2018	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM3073889&format=file&file=GSM3073889%5FlincDUSP%5FChIRP%2Dseq%5Fpeaks%2Exlsx	single_RNA	VACO 703 cell line	LINC01605		lncDUSP	ENSG00000253161	small number of reads in fastqs (3543)
+MALAT1	MALAT1-GSE58444	CHART-seq	Human	GSE58444	PRJNA252626	v1	v1	no	10.1016/j.molcel.2014.07.012	West	2014	https://ars.els-cdn.com/content/image/1-s2.0-S1097276514006054-mmc2.xlsx	single_RNA	MCF7 cell line	MALAT1		MALAT1	ENSG00000251562	
+MEG3	MEG3-PRJEB7307	ChOP-seq	Human	PRJEB7307	NA	v1	v1	experimental	10.1038/ncomms8743	Mondal	2015	https://static-content.springer.com/esm/art%3A10.1038%2Fncomms8743/MediaObjects/41467_2015_BFncomms8743_MOESM364_ESM.xls	single_RNA	BT-549 cell line	MEG3		MEG3	ENST00000451743	
+NEAT1	NEAT1-GSE58444	CHART-seq	Human	GSE58444	PRJNA252626	v1	v1	experimental	10.1016/j.molcel.2014.07.012	West	2014	https://ars.els-cdn.com/content/image/1-s2.0-S1097276514006054-mmc2.xlsx	single_RNA	MCF-7 cell line	NEAT1		NEAT1	ENSG00000245532	triplex evidence in other papers (10.1093/nar/gky1305)
+1200007C13Rik@NDL	1200007C13Rik@NDL-GSE142169	ChIRP-seq	Mouse	GSE142169	PRJNA596185	v1	v1	no	10.1038/s41467-020-20207	Chang	2020	https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-20207-y/MediaObjects/41467_2020_20207_MOESM5_ESM.xlsx;https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-20207-y/MediaObjects/41467_2020_20207_MOESM6_ESM.xlsx	single_RNA	NDL cell line	1200007C13Rik		MaTAR25	ENSMUSG00000087684	the number of peaks provided by the authors is equal to the maximum number of rows in xls files
+NFKBMARL-1	NFKBMARL-1-GSE167504	ChIRP-seq	Human	GSE167504	PRJNA704835			no	10.1038/s43587-021-00056-0	Cai	2021	https://static-content.springer.com/esm/art%3A10.1038%2Fs43587-021-00056-0/MediaObjects/43587_2021_56_MOESM6_ESM.xlsx	single_RNA	IMR90 cell line			NFKBMARL-1		unclear positive control, negative control and input definition
+NRAD1	NRAD1-NA	ChIRP-seq	Human	NA	NA			no	10.1038/s41418-019-0362-1	Vidovic	2020	NA	single_RNA	MDA-MB-468 cell line			NRAD1	ENSG00000233725	no data available
+Meg3	Meg3-GSE99798	ChIRP-seq	Mouse	GSE99798	PRJNA389664	v1	v1	experimental	10.1128/MCB.00278-17 	Iyer	2017	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE99798&format=file&file=GSE99798%5FM5%5Funique%5FNGSA%2Ebed%2Egz	single_RNA	MIN6-4N cell line	Meg3		Meg3	ENSMUSG00000021268	
+AK156552.1	AK156552.1-GSE73805	ChIRP-seq	Mouse	GSE73805	PRJNA297950	v1	v1	poor	10.1016/j.celrep.2017.11.045	Wang	2018	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE73805&format=file&file=GSE73805%5FPanct1%5FWT%5FOdd%5Fand%5FEven%2Ebed%2Egz	single_RNA	mES cell line		AK156552.1	Panct1		
+PCGEM1	PCGEM1-GSE47804	ChIRP-seq	Human	GSE47804	PRJNA207830			no	10.1038/nature12451	Yang	2013	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE47804&format=file	single_RNA	LNCaP cell line			PCGEM1	ENSG00000227418	no input or negative control
+Rmrp	Rmrp-GSE73912	ChIRP-seq	Mouse	GSE73912	PRJNA298543			no	10.1038/nature16193	Huang	2015	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE73912&format=file&file=GSE73912%5FRMRP%5FChIRPseq%5FDDX5ko%5FoverlapPeaks%2Ebed%2Egz;https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE73912&format=file&file=GSE73912%5FRMRP%5FChIRPseq%5FWT%5FoverlapPeaks%2Ebed%2Egz	single_RNA		Rmrp		RMRP	ENSMUSG00000115420	Retracted article
+AL109615.3	AL109615.3-GSE136185	CHART-seq	Human	GSE136185	PRJNA561525	v1	v1	no	10.1158/0008-5472.CAN-20-2612.	Zagorac	2021	NA	single_RNA	MDA-MB-231 sphere-derived cell	AL109615.3		SCIRT	ENSG00000237686	
+AC018781.1	AC018781.1-GSE104479	ChIRP-seq	Human	GSE104479	PRJNA412810	v1	v1	no	10.1002/art.41200	Fan	2020	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE104479&format=file	single_RNA	Jurkat cell line	AC018781.1		SLEAR	ENSG00000248599	
+SNHG11	SNHG11-NA	ChIRP-seq	Human	NA	NA			no	10.1038/s41388-020-01512-8	Xu 	2020	https://static-content.springer.com/esm/art%3A10.1038%2Fs41388-020-01512-8/MediaObjects/41388_2020_1512_MOESM2_ESM.xls	single_RNA	hypoxia-treated HCT-116 cell line			SNHG11	ENSG00000174365	no data available
+SRA1	SRA1-GSE58641	ChIRP-seq	Human	GSE58641	PRJNA253062	v1	v1	no	10.1371/journal.pgen.1005615	Wongtrakoongate	2015	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM1415922&format=file&file=GSM1415922%5FNTERA2%5FSRA%2Ebed%2Egz	single_RNA	NTERA2 pluripotent stem cell line	SRA1		SRA	ENSG00000213523	
+Tug1	Tug1-GSE77493	ChIRP-seq	Mouse	GSE77493	PRJNA310632	v1	v1	speculated	10.1172/JCI87927	Long	2016	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE77493&format=file	single_RNA	Conditionally immortalized mouse podocytes	Tug1		Tug1	ENSMUSG00000056579	
+ROX2	ROX2-GSE31332	ChIRP-seq	Drosophila	GSE31332	PRJNA146003			no	10.1016/j.molcel.2011.08.027 	Chu	2011	ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE31nnn/GSE31332/suppl/GSE31332%5Frox2%5Fpeaks%2Ebed%2Egz	single_RNA	S2 cell line			ROX2		
+TERC	TERC-GSE31332	ChIRP-seq	Human	GSE31332	PRJNA146003	v1	v1	experimental	10.1016/j.molcel.2011.08.027 	Chu	2011	https://ftp.ncbi.nlm.nih.gov/geo/series/GSE31nnn/GSE31332/suppl/GSE31332%5Fterc%5Fpeaks%2Ebed%2Egz	single_RNA	cell line V703 (Patient-derived colon cancer)	TERC		TERC	ENSG00000277925	triplex evidence in other papers (10.1093/nar/gkz584)
+Xist	Xist-GSE137305	RAP-seq	Mouse	GSE137305	PRJNA565139			experimental	10.1126/science.1237973	Engreitz	2013		single_RNA	ES cell line	Xist		Xist	ENSMUSG00000086503	chrX only;  triplex evidence in other papers (10.1186/s13100-019-0173-4)
+GSE93281@Mouse	GSE93281@Mouse-GSE93281	ChIRP-seq	Mouse	GSE93281	PRJNA360462			no	10.1093/nar/gkx055	Hu	2017		ERV-9 assoc. lncRNAs	day 5 Tg mouse spleen			NA		
+GSE93281@Human	GSE93281@Human-GSE93281	ChIRP-seq	Human	GSE93281	PRJNA360462			no	10.1093/nar/gkx055	Hu	2017		ERV-9 assoc. lncRNAs	day 13 erythroblast			NA		
+GSE132192	GSE132192-GSE132192	RADICL-seq	Mouse	GSE132192	PRJNA546280			NA	10.1038/s41467-020-14337-6	Bonetti	2020		all_RNAs	mES cell line			NA		
+GSE82312@Drosophila	GSE82312@Drosophila-GSE82312	GRID-seq	Drosophila	GSE82312	PRJNA324602			NA	10.1038/nbt.3968	Li	2017		all_RNAs	S2 cell line			NA		
+GSE82312@Human	GSE82312@Human-GSE82312	GRID-seq	Human	GSE82312	PRJNA324602			NA	10.1038/nbt.3968	Li	2017		all_RNAs	MDA-MB-231 breast cancer cell line (HTB-26, ATCC)			NA		
+GSE82312@Mouse	GSE82312@Mouse-GSE82312	GRID-seq	Mouse	GSE82312	PRJNA324602			NA	10.1038/nbt.3968	Li	2017		all_RNAs	mES cell line			NA		
+GSE92345@ES	GSE92345@ES-GSE92345	MARGI-seq	Human	GSE92345	PRJNA357269			NA	10.1016/j.cub.2017.01.011	Sridhar	2017		all_RNAs	ES cell line			NA		
+GSE92345@H9	GSE92345@H9-GSE92345	MARGI-seq	Human	GSE92345	PRJNA357269			NA	10.1016/j.cub.2017.01.011	Sridhar	2017		all_RNAs	H9 cell line			NA		
+GSE97131	GSE97131-GSE97131	ChAR-seq	Drosophila	GSE97131	PRJNA380782			NA	10.7554/eLife.27024.001	Bell	2018		all_RNAs	CME-W1-cl8+ cell line			NA		
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+																			
+													 						
