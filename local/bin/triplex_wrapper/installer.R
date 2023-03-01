@@ -1,0 +1,1 @@
+devtools::install_github(repo = 'SchulzLab/TriplexAligner', repos = BiocManager::repositories(), dependencies = T)
