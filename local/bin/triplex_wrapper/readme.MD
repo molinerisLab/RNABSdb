@@ -1,6 +1,10 @@
 ## Create container image
-* build -t triplex_wrapper .
 
-## Use script
-* docker run --rm --rm -v $PWD:$PWD triplex_wrapper $PWD/example_fasta/dnaInput.fa $PWD/example_fasta/lncRna.fa
-* input files are to be given in the form $PWD/{relative_path}
+`docker build -t triplex_wrapper .`
+
+## Script usage
+
+`docker run --rm -v $PWD:$PWD triplex_wrapper $PWD/example_fasta/dnaInput.fa $PWD/example_fasta/lncRna.fa hs`
+
+- Input files are to be given in the form `$PWD/{relative_path}`
+- Last argument must be `hs` for human or `mm` for mouse 
