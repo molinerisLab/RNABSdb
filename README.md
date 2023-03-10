@@ -5,6 +5,6 @@ This repository is related to the code and pipelines of RNABSdb, if you are inte
 
 # Configuration
 ## Conda env
-* Environment in config/
+* Environment *rnabsdb_env*  in config/
 * Lanciare *npm install -g @angular/cli* per installare angular 
 ## 
