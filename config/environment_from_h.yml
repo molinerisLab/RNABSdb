@@ -1,0 +1,6 @@
+name: rnabsdb_env
+channels:
+  - defaults
+dependencies:
+  - nodejs
+prefix: /home/mmasera/.conda/envs/rnabsdb_env
